@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#container {
+    background: white;
+    position: relative;
+   
+}
+
+#container img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin:  auto;
+    opacity: .5;
+}
+
+.center {
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    font-size: 24px;
+    color: black;    
+}
+
+h2 {
+    color: black;
+    text-align: center;
+    line-height: 40px;
+    pointer-events: none;
+    text-transform: capitalize;
+}
+
+
+#card {
+    background: white;
+    margin: 0 auto;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, .3);
+    width: 450px;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+
+
+
+#card>.img2,
+#thumbnail>.img3 {
+    display: block;
+    height: auto;
+    max-width: 100%; 
+    opacity: 1;
+}
+
+#card>p {
+    text-align: center;
+    font-size: 18px;
+    line-height: 50px;
+}
+
+#card:hover {
+  box-shadow: 0px 18px 15px 5px rgba(0, 0, 0, .5),
+               0px 18px 12px 8px rgba(0, 0, 0, .3);
+  width: 500px;
+}
+
+
+#thumbnail {
+    background: white;
+    margin: 0 auto;
+    width: 400px;
+    box-shadow: 0px 18px 15px 5px rgba(0, 0, 0, .5);
+    
+}
+
+
+#thumbnail:hover .img3 {
+    box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, .7);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+
+#filter {
+    background: white;
+    width: 300px;
+    margin: auto;
+    box-shadow: 0px 18px 15px 5px rgba(0, 0, 0, .5);
+    padding: 20px;
+    overflow: auto;
+    
+}
+
+.filter {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 20px;
+}
+
+.img4 {
+    filter: brightness(.3);
+    -webkit-filter: brightness(.3);
+}
+
+.img5 {
+    filter: drop-shadow(5px 5px 8px );
+    -webkit-filter: drop-shadow(5px 5px 8px );
+}
+
+.img6 {
+    margin-left: 20px;
+   filter: contrast(20%);
+   -webkit-filter: contrast(20%);
+}
+
+.img7 {
+   filter: grayscale(45%);
+   -webkit-filter: grayscale(45%);
+}
+
+.img8 { filter: sepia(60%); -webkit-filter: sepia(60%);
+}
+
+body {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+/*=====================
+                Image Gallery
+                   =====================*/
+* {
+    box-sizing: border-box;
+}
+
+#responsive {
+    width: 24.99999%;
+    float: left;
+    padding: 6px;
+    text-align: center;
+}
+
+div .desc {
+    padding: 15px;
+    
+}
+
+div .img img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+div .img img:hover {
+    border: 1px solid #777;
+}
+
+div .img {
+    border: 1px solid #ccc;
+}
+

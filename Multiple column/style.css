@@ -1,0 +1,14 @@
+.newspaper {
+    text-align: justify;
+    -webkit-columns: 100px 3;
+    -webkit-column-rule: 2px solid red;
+    -webkit-column-gap: 40px;
+    
+    }
+    
+    h1 {
+    -webkit-column-span: all;
+    text-align: center;
+    font: bold 3em sans-serif;
+    color: red;
+    }

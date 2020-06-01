@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightgrey;
+}
+
+#tb1 caption,
+#tb4 caption,
+#tb2 caption,
+#tb3 caption  {
+    font-size: 24px;
+    font-weight: bold;
+    font-variant: small-caps;
+    text-decoration: underline;
+    line-height: 60px;
+    user-select: none;
+    pointer-events: none;
+}
+#tb1 {
+    width: 70%;
+    height: 450px;
+    margin: 20px auto;
+    background: darkgray;
+    border-collapse: collapse;
+    text-transform: capitalize;
+    
+}
+
+#tb1 th {
+    background: lightseagreen;
+    color: yellow;
+    font-size: 18px;
+}
+
+#tb1 td {
+    font-size: 17px;
+}
+
+#tb1 th, td {
+    border: 1px solid rgba(0, 0, 0, .3);
+    padding: 8px;
+    text-align: center;
+}
+
+
+#tb1 td {
+    vertical-align: bottom;
+}
+
+#tb1 tr {
+    transition: .5s linear;
+    -webkit-transition: .5s linear;
+    -moz-transition: .5s linear;
+    -ms-transition: .5s linear;
+    -o-transition: .5s linear;
+}
+
+#tb1 tr:hover {
+    background: lightgrey;
+    font-weight: 700;
+    border-bottom: 2px solid rgba(0, 0, 0, .5);
+}
+
+#tb2, #tb3 {
+   border-collapse: collapse;
+   width: 60%;
+   margin: auto;
+}
+
+
+#tb2 th,
+#tb3 th {
+    background: rgb(3, 51, 78);
+    padding: 12px;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, .4);
+}
+
+#tb2 td,
+#tb3 td {
+    background: rgb(14, 76, 112);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, .4);
+}
+
+
+#tb4 {
+    color: white;
+    width: 70%;
+    height: 450px;
+    margin: 20px auto;
+    background: rgb(14, 4, 70);
+    border-collapse: collapse;
+    
+    
+}
+
+#tb4 caption {
+    text-decoration: underline;
+    line-height: 60px;
+    font-size: 1.5em;
+    color: tomato;
+    background: rgb(27, 12, 107);
+    border-bottom: 1px solid rgba(255, 255, 255, .4);
+}
+
+#tb4 td, th {
+    border-bottom: 1px solid rgba(255, 255, 255, .4);
+}
+
+#tb4 th {
+    padding: 20px;
+}
+
+#tb4 td {
+    vertical-align: bottom;
+    padding: 18px;
+}
+
+#tb4 tr:nth-child(even) {
+    background: rgb(27, 12, 107);
+}

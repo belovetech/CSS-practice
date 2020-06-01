@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-size;
+    }
+    
+    #sidebar {
+    background: #660000;
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    left: -250px;
+    transition: .5s ease;
+    
+    }
+    
+    #sidebar header {
+    color: white;
+    line-height: 70px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    background: #990000;
+    user-select: none;
+    }
+    
+    
+    
+    #sidebar ul a {
+    display: block;
+    line-height: 65px;
+    color: white;
+    padding-left: 70px;
+    font-size: 18px;
+    border-top: 1px solid rgba(255, 255, 255, .1);
+    border-bottom: 1px solid black;
+    transition: .5s ease;
+    
+    }
+    
+    #sidebar ul a:hover {
+    padding-left: 25px;
+    
+    }
+    
+    #check {
+    display: none;
+    }
+    
+    label .btn,
+    label .cancel {
+    position: absolute;
+    
+    }
+    
+    label .btn {
+    left: 40px;
+    top: 25px;
+    background: #990000;
+    transition: .5s ease;
+    border-radius: 5px;
+    
+    }
+    
+    label .cancel {
+    z-index: 1111;
+    left: -175px;
+    top: 17px;
+    transition: .5s ease;
+    }
+    #check:checked ~ #sidebar{
+    left: 0;}
+    
+    #check:checked ~ label .btn{
+    left: 250px;
+    opacity: 0;
+    pointer-event: none;
+    }
+    
+    #check:checked ~ label .cancel{
+    left: 185px;
+    }
+    
+    section {
+    background: url("img/laptop 4.jpg") no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    

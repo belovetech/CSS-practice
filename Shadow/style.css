@@ -1,0 +1,27 @@
+.card, .postcard {
+    width: 250px;
+    margin: 20px auto;
+    box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, .5),
+                0px 5px 19px 0  rgba(0, 0, 0, .19);
+    box-sizing: border-box;
+}
+
+.header {
+    background: #4acf50;
+    color: white;
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    line-height: 170px;
+    font-weight: bold;
+}
+
+
+.container {
+    text-align: center;
+    padding: 20px;
+
+}
+
+

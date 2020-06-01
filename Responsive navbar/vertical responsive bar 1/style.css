@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    }
+    
+ nav {
+    background: #ed3a16;
+    height: 80px;
+    width: 100%;
+    color: white
+    
+    }
+
+label.logo {
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+
+label.logo,
+nav ul li,
+nav ul li a,
+.checkbtn {
+line-height: 80px;
+} 
+
+span {
+font-size:  16px;
+font-family: century, monospace;
+letter-spacing: 8px;
+position: absolute;
+top: 52px;
+left: 155px;
+
+}
+
+label.logo {
+font-size: 35px;
+padding: 0  100px;
+font-weight: bold;
+
+}
+
+nav ul {
+float: right;
+margin-right: 80px;
+margin-top: -80px;
+}
+
+
+nav ul li{
+display: inline-block;
+margin: 0 5px;
+}
+   
+
+nav ul li a{
+     border-radius: 3px;
+     padding: 7px 13px;
+     line-height: 80px;
+     color: white;
+     text-transform: uppercase;
+     font-size: 17px;
+   
+}
+
+a.active,
+a:hover {
+background-color: #ff6648;
+transition: .5s;
+}
+
+.checkbtn {
+float: right;
+margin-right: 40px;
+margin-top: 20px;
+cursor: pointer;
+display: none;
+}
+
+#check{
+display: none;
+}
+
+@media screen and (max-width: 800px) {
+label.logo { 
+     padding-left: 50px;
+     font-size: 30px;
+}
+nav ul li a{
+font-size: 16px;}
+
+span{ left: 60px;
+        font-size: 14px;
+    left: 80px;}
+}
+
+@media screen and (max-width: 858px) {
+.checkbtn{ 
+    display: block;}
+
+ul {
+ position: fixed;
+ top: 160px;
+ left: -100%;
+ width: 100%;
+ height: 100vh;
+ text-align: center;
+ background: #461c33;
+ transition: all .5s;
+}
+
+nav ul li {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+}
+
+nav ul li a {
+    font-size: 20px;
+}
+a:hover,a.active{ 
+    background: none; 
+    color: #ec7dba;
+
+}
+#check:checked~ul {left:0}
+}
+
+section {
+    background: url("img/img_5terre.jpg") no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+
+
+
+
+
+
+
+
+   
+   

@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    font: 16px/1.5em montserrat;
+}
+
+nav {
+    background-color: #006699;
+    color: #fff;
+    width: 100%;
+    padding: 20px;
+    overflow: hidden;
+    border-bottom: 2px solid #8bb2ff;
+  
+}
+
+label.logo{
+    font-size: 3em;
+    padding: 0 100px;
+    line-height: 50px;
+    font-weight: bold;
+}
+
+i {
+   font-size: 1.5em;
+   position: absolute;
+   top: 65px;
+   left: 230px; 
+   color: #8bb2ff;
+}
+
+ul {
+    float: right;
+    margin: 20px;
+    
+}
+
+ul li {
+    display: inline-block;
+    
+}
+
+ul li a {
+    color: #fff;
+    padding: .5em 1em;
+    text-transform: uppercase;
+    font-size: 1.1em;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+a.active, a:hover {
+    background-color: #6699ff;
+    transition: .5s;
+}
+
+.icon{
+display: block;
+float: right;
+margin: 20px;
+display: none;
+}
+
+.icon:hover {
+    transition: .2s;
+    background-color: #6d9eff;
+    -webkit-transition: .2s;
+    -moz-transition: .2s;
+    -ms-transition: .2s;
+    -o-transition: .2s;
+}
+
+#check {
+    display: none;
+}
+
+@media screen and (max-width:700px) {
+label.logo{
+    font-size: 30px;
+    margin-top: 10px;
+    
+}
+i {
+    font-size: 1em;
+    margin-top: -10px;
+    margin-left: -30px;
+}
+
+nav {
+    text-align: center;
+}
+
+ul li a{
+    font-size: 1em;
+}
+
+}
+
+@media screen and (max-width: 900px){
+.icon {
+    display: block;
+}
+
+ul {
+    background: #0f2247;
+    width: 100%;
+    height: 80%;
+    position: fixed;
+    bottom: -100%;
+    left: -20px;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+}
+
+ul li  {
+    display: block;
+    line-height: 80px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+body {
+    background: url("img/images\ \(14\).jpeg") no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: 100vh; 
+}
+
+.active, a:hover {
+    background-color: #6d9eff;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+#check:checked~ul {
+    bottom: 0;
+}
+}
+
+html {
+    background: url("img/images\ \(17\).jpeg") no-repeat ;
+    background-size: cover;
+    height: 100vh; 
+}
+

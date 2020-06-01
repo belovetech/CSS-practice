@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    }
+
+    #sidebar {
+        background: #02616c;
+        width: 250px;
+        height: 100vh;
+        color: white;
+        position: fixed;
+        left: -250px;
+        border-radius: 0 5px 5px 0;
+        -webkit-border-radius: 0 5px 5px 0;
+        -moz-border-radius: 0 5px 5px 0;
+        -ms-border-radius: 0 5px 5px 0;
+        -o-border-radius: 0 5px 5px 0;
+}
+
+    header { background: #2a909c;
+         color: white; 
+         text-align: center;
+          line-height: 80px; 
+          font-size: 35px; 
+          font-weight: bold;
+           user-select: none; 
+           border-radius: 0 5px 0 0; 
+           -webkit-border-radius: 0 5px 0 0; 
+           -moz-border-radius: 0 5px 0 0; 
+           -ms-border-radius: 0 5px 0 0; 
+           -o-border-radius: 0 5px 0 0;
+}
+
+    #sidebar ul a {
+        display: block;
+        padding-left: 65px;
+        line-height: 60px;
+        color: white;
+        font-size: 18px;
+        border-top: 1px solid rgba(0, 0, 0, .1);
+        border-bottom: 1px solid black;
+}
+
+#sidebar,
+#sidebar ul a,
+#sidebar #btn,
+#sidebar #cancel {
+    transition: .5s ease;
+    -webkit-transition: .5s ease;
+    -moz-transition: .5s ease;
+    -ms-transition: .5s ease;
+    -o-transition: .5s ease;
+}
+
+
+
+#sidebar ul a:hover {
+padding-left: 40px;
+}
+
+#sidebar ul li i {
+    margin-right: 10px;
+}
+
+#check {
+    display: none;
+}
+
+label #btn
+ {
+    background: #2a909c;
+    padding: 5px 7px;
+    color: white;
+    font-size: 18px;
+    left: 24px;
+    top: 17px;
+}
+
+label #cancel {
+    background: #2a909c;
+    padding: 5px 7px;
+    color: white;
+    left: -250px;
+    top: 24px;
+    z-index: 1111;
+}
+
+label #btn,  
+label #cancel {
+    border-radius: 3px;
+    position: absolute;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+#check:checked ~ #sidebar{
+    left: 0;
+}
+    
+ #check:checked ~ label #btn{
+        left: 250px;
+        opacity: 0;
+        pointer-events: none;
+    }
+
+    #check:checked ~ label #cancel{
+        left: 210px;
+        top: 30px;
+       color: #c5f9ff;
+
+}
+
+#check:hover ~ label #cancel{
+   background: #02616c;
+   border-radius: 50%;
+   -webkit-border-radius: 50%;
+   -moz-border-radius: 50%;
+   -ms-border-radius: 50%;
+   -o-border-radius: 50%;
+}
+
+section {
+    background: url("img/1.jpg") no-repeat center;
+    background-size: cover;
+    height: 100vh;
+}

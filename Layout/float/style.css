@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    background-color: #d7ff97;
+    color: black;
+}
+
+#container {
+    width: 1300px;
+    margin: 10px auto;
+
+}
+
+header,
+nav {
+    margin: 10px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+header {
+    height: 70px;
+    background-color:#268017;
+    color: #000000;
+    
+}
+
+nav {
+  
+    background-color:  #96ec0e;
+    color: #ffffff;   
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    
+}
+
+nav ul li {
+    display: inline;
+    border-right: 2px solid #268017; 
+    
+   
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: .5em 1em;
+    color: #000;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    font-weight: 600; 
+    
+     
+}
+
+nav ul li:last-child {
+  border-right: none;
+}
+
+nav ul li a:hover {
+    background-color: #cff790;
+}
+
+
+
+aside {
+    float: left;
+    height: 100vh;
+    width: 250px;
+    background-color: #91a78d;
+    margin-left: 10px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+section {
+    float: right;
+    height: 100vh;
+    width: 1000px;
+    background-color: #91a78d;
+    margin-right: 10px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+footer {
+    height: 50px;
+    background-color:  #96ec0e ;
+    color: #ffffff;  
+    margin: 10px 10px 10px 10px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px; 
+  
+    
+}
+
+br {
+    clear: both;
+}
+
+/* heading section=======*/
+h1 {
+    font-size: 2em;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    position: relative;
+    top: 30%;
+    
+}
+
+@media screen and (max-width:600px) 
+{  header, nav, footer, aside, section { float: none; width: 50%; }
+
+}
+
+@media screen and (max-width:600px) 
+{ aside, section { float: none; margin-top: 10px; }
+
+}

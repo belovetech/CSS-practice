@@ -1,0 +1,25 @@
+.wrap {
+    width: 980px;
+    height: 400px;
+    margin: 20px auto;
+    padding: 15px; 
+    box-shadow: 0 0 20px 0 rgba(0,0,0,.5);
+              
+}
+
+
+.box {
+    width: 250px;
+    height: 250px;
+    -webkit-border-radius: 15px;
+    background: #4acf50;
+    -webkit-transition: margin 1s cubic-bezier(0.3, -0.3, 0.3, .3) 0s, background .6s ease-in 1s;
+    
+}
+
+.wrap:hover .box {
+   background: coral;
+    margin-left: 75%;
+
+  
+}

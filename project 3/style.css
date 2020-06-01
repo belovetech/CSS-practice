@@ -1,0 +1,204 @@
+body{
+    font-family: 'montserrat', sans-serif;
+}
+
+.img_responsive{
+    max-width: 100%;
+}
+
+.food_image{
+    background-image: url(images/bk.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+}
+.food_wrapper{
+    color:#ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.food_wrapper h1{
+    font-size: 2.5rem;
+   
+}
+
+.form_code{
+    text-align: center;
+    display: block;
+
+}
+
+.form_code .post_code{
+    width: 100%;
+    padding: .5rem;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    text-align: center;
+    border:none;
+    outline: none;
+    margin: 0 auto;
+}
+
+.form_code button{
+    padding: 1rem 0;
+    margin: .3rem auto 0;
+    width: 30%;
+    border-radius: .5rem;
+    -webkit-border-radius: .5rem;
+    -moz-border-radius: .5rem;
+    -ms-border-radius: .5rem;
+    -o-border-radius: .5rem;
+    background-color:#00bab1;
+    border:none;
+    outline: none;
+    color:#ffffff;
+    font-size: .578rem;
+}
+
+/*food items section*/
+/*.food span{
+    text-align: center;
+    color:#000;
+    font-family: 'poppins';
+    font-size: 2rem;
+    margin-left:-45rem;
+    margin-bottom: -3rem;
+    position: relative;
+}*/
+.food_heading{
+    text-align: center;
+}
+
+.food{
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+.food_list_item{
+float: left;
+width: 32.33%;
+margin-left: 1rem;
+margin-top: .5rem;
+}
+
+.food_list_item img{
+    width: 100%;
+    }
+
+.food_list_item:first-of-type{
+    margin-left: 0;
+}
+
+
+.food_list_item p{
+    text-align: justify;
+}
+
+.food_heading{
+    text-align: left;
+}
+
+@media screen and (max-width:200px) {
+    .food_list_item{
+        width: 100%;
+        float: none;
+    }
+}
+
+/*fruit section*/
+
+.fruit{
+width: 80%;
+margin: 0 auto;
+
+
+}
+
+.fruit_list_item{
+    float: left;
+    width: 32.33%;
+    margin-left: 1rem;
+    margin-top: .5rem;
+    
+    
+}
+
+.fruit_list_item img{
+    width: 100%;
+   
+    
+    
+}
+
+.fruit_list_item:first-of-type{
+    margin: 0;
+}
+
+span{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    position: relative;
+    top: 25px;
+    left: 35%;
+    background:rgb(0, 0, 0);
+    width: 80%;
+    right: -18rem;
+    border: 2px solid red;
+    padding: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+footer{
+    
+    display: inline-block;
+    background:#000000;
+    color:#fff;
+    width: 100%;
+    
+    
+}
+
+footer p{
+    margin-left: 35%;
+    float: left;
+    clear: both;
+    
+}
+
+ul{
+    list-style-type: none;
+    float: right;
+    
+}
+li{
+    display: inline-block;
+}
+
+a{
+    margin-right: 2rem;
+    padding: 1rem;
+ 
+
+}
+a:hover{
+    color: white;
+}
