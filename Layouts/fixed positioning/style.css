@@ -1,0 +1,170 @@
+
+/* Page styles
+===============================*/
+body {
+    font: normal 1.1em/1.5em sans-serif;
+    color: #222;
+    background-color: #edeff0;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+.main-logo a,
+.main-nav a {
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+.primary-content p,
+.secondary-content p,
+.extral-content p {
+    text-align: justify;
+}
+
+
+/* Layout Element Colors
+===============================*/
+.main-header       {background-color: #110f0f;}
+.main-logo         {background-color: #00559d;}
+.main-nav li       {background-color: #03c234;}
+.primary-content   {background-color: #66cccc;}
+.secondary-content {background-color: #6699cc;}
+.main-footer       {background-color: #cccccc;}
+
+
+
+/* Header, Banners and Footers
+===============================*/
+
+.main-header {
+    padding: 15px;
+}
+.main-logo {
+    padding: 15px;
+    margin: 0 0 10px 0; 
+}
+.main-logo,
+.main-nav li {
+    border-radius: 5px;
+}
+.main-nav li {
+    display: block;
+    margin-top: 10px;
+}
+.main-banner {
+    display: none;
+    background: #bebdbe;
+    padding: 20px;
+    text-align: center;
+}
+.main-footer {
+    padding: 10px;
+    text-align: center;
+   /* position: fixed;
+    bottom: 0;
+    width: 100%;*/
+}
+/* Column Layouts
+===============================*/
+.col {
+    padding: 15px;
+}
+.extral-content,
+.main-banner {
+    display: none;
+}
+
+
+/* Imagery
+===============================*/
+.feat-img {
+    width: 100%
+}
+
+/* Clearfix
+===============================*/
+
+
+/* Media Queries
+===============================*/
+
+@media screen and (min-width: 769px) {
+
+/*.main-wrapper {
+    width: 90%;
+    margin: auto;
+}*/
+html,
+body,
+.main-wrapper,
+.column-row,
+.col {
+    height: 100%;
+}
+body {
+    margin-top: 100px;
+}
+/* Header, Banners and Footers
+===============================*/
+.main-header {
+    position: fixed;
+    width: 100%;
+    min-height: 100px;
+    top: 0; 
+    z-index: 100;
+}
+.main-logo,
+.main-nav {
+    position: absolute;
+}
+.main-logo {
+    width: 200px;
+}
+.main-nav {
+    right: 100px;
+}
+.main-nav li {
+    display: inline-block;
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
+/* Column Layouts
+===============================*/
+.column-row {
+    position: relative;
+}
+.col {
+    position: absolute;
+    width: 30%;
+}
+.primary-content {
+    width: 40%;
+    left: 30%;
+}
+.secondary-content {
+    right: 0;
+}
+.extral-content,
+.main-banner {
+display: block; /* Unhide from mobile view*/
+}
+
+/* Imagery
+===============================*/
+.feat-img {
+    float: left;
+    width: 60%;
+    margin: 10px 25px 10px 0;
+    border: solid 1px;
+    padding: 5px;
+}
+
+
+}

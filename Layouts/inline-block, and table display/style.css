@@ -1,0 +1,133 @@
+
+/* Page styles
+===============================*/
+body {
+    font: normal 1.1em/1.5em sans-serif;
+    color: #222;
+    background-color: #edeff0;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+.main-logo a,
+.main-nav a {
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+html,
+body,
+.main-wrapper {
+    height: 100%;
+}
+
+
+.main-wrapper {
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+/* Layout Element Colors
+===============================*/
+.main-header {background-color: #110f0f;}
+.main-logo   {background-color: #ff4200;}
+.main-nav li {background-color: #01339b;}
+.primary-content {background-color: #66cccc;}
+.secondary-content {background-color: #6699cc;}
+.main-footer {background-color: #cccccc;}
+
+
+/* Header, Banners and Footers
+===============================*/
+.main-header {
+    padding: 40px;
+    display: table;
+    width: 100%;
+    min-height: 150px;
+}
+
+.main-logo,
+.main-nav,
+.main-nav li {
+    display: inline-block;  
+}
+
+.main-logo {
+    width: 150px;
+}
+
+.main-logo
+.main-nav, {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.main-logo,
+.main-nav li {
+    border-radius: 4px;
+}
+
+.main-nav {
+    padding-left: 50px;
+}
+
+.main-nav li {
+    margin-right:  10px;
+}
+
+.main-footer {
+    padding: 20px;
+    text-align: center;
+}
+
+.main-banner {
+    background: #edebee;
+    padding: 15px;
+    text-align: center;
+}
+
+/* Column Layouts
+===============================*/
+.col {
+    display: inline-block;
+    padding: 20px;
+    margin-right: -5px;
+    vertical-align: top;
+}
+
+.primary-content {
+    width: 60%;
+}
+
+.secondary-content {
+    width: 40%;
+    padding-bottom: 60px;
+}
+
+/* Media Queries
+===============================*/
+@media screen and (max-width: 768px) {
+.main-logo,
+.main-nav,
+.main-nav li,
+.col {
+    display: block;
+    height: none;
+    margin: initial;
+    width: initial;  
+}
+.main-nav {
+    padding: initial;
+    margin-bottom: 10px;
+}
+.main-nav li {
+margin-top: 10px;
+}
+
+}
